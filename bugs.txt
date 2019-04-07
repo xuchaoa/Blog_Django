@@ -1,3 +1,2 @@
-1. /account/login?next=/article/article_column     跳转问题未解决
-2. 前端优化中~
-4. 优化体验中
+1. /account/login?next=/art
+4. 优化体验中。
