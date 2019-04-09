@@ -1,2 +1,2 @@
 1. /account/login?next=/art
-4. 优化体验中。
+4. 优化体验中
