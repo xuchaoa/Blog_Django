@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',   #静态文件引入
     'blog',     #新建立的应用名称
     'account',
-    'password_reset',
     'article',
     'image',
     'sorl.thumbnail',  #缩略图显示
