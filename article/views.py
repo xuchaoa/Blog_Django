@@ -115,6 +115,7 @@ def del_article(request):
     except:
         return HttpResponse('2')
 
+
 @login_required(login_url='/account/login')
 @csrf_exempt
 def redit_article(request,article_id):
