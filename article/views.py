@@ -186,6 +186,7 @@ def article_tag(request):
         else:
             return HttpResponse('the form is not valid')
 
+
 @login_required(login_url='/account/login/')
 @csrf_exempt
 def del_article_tag(request):
@@ -196,6 +197,7 @@ def del_article_tag(request):
         return HttpResponse('1')
     except:
         return HttpResponse('2')
+
 
 
 @login_required(login_url='/account/login')
