@@ -199,6 +199,7 @@ def del_article_tag(request):
         return HttpResponse('2')
 
 
+
 @login_required(login_url='/account/login')
 def test(request):
     print(request.user)
